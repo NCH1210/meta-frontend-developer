@@ -1,8 +1,15 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
+import Home from "./routes/Home";
+import { Route, Routes } from "react-router-dom";
+import Reservations from "./routes/Reservations";
 
-function App() {
-    return <div className="App">Homepage</div>;
+export default function App() {
+    return (
+        <>
+            <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/reservations" element={<Reservations />} />
+            </Routes>
+        </>
+    );
 }
-
-export default App;
