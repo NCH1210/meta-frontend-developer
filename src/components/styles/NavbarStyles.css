@@ -10,12 +10,10 @@
     margin: 0 auto;
 }
 
-
-
 @media screen and (max-width: 1024px) {
     .header-wrapper {
         width: 100%;
-        
+
         padding-left: 30px;
         padding-right: 30px;
     }
@@ -27,9 +25,9 @@
         width: 100%;
         text-align: right;
         padding: 10px 30px 30px;
-        background: azure
+        background: azure;
     }
-    
+
     .header-wrapper .mobile-nav ul li {
         padding: 10px 0;
     }

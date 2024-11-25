@@ -4,7 +4,7 @@ header {
     justify-content: space-between;
     padding: 10px 0;
     width: 80%;
-    margin: 0 auto;  
+    margin: 0 auto;
 }
 
 .logo-img {
@@ -24,12 +24,10 @@ header {
     color: #495e57;
 }
 
-.hamburger, .close-hamburger {
+.hamburger,
+.close-hamburger {
     display: none;
 }
-
-
-
 
 @media screen and (max-width: 1024px) {
     header {
@@ -69,7 +67,8 @@ header {
         font-size: smaller;
     }
 
-    .hamburger, .close-hamburger {
+    .hamburger,
+    .close-hamburger {
         line-height: 0.8;
         display: initial;
         z-index: 11;

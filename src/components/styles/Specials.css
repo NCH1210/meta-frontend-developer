@@ -14,7 +14,6 @@
     padding: 15px 45px;
 }
 
-
 @media screen and (max-width: 1024px) {
     .specials-section-container {
         width: 100%;
@@ -33,8 +32,6 @@
         margin-bottom: 30px;
         font-size: smaller;
     }
-
-    
 }
 
 @media screen and (max-width: 852px) {
@@ -43,13 +40,9 @@
     }
 }
 
-
-
-
 @media screen and (max-width: 659px) {
     .specials-section-title {
         flex-direction: column;
-        align-items:flex-start;
+        align-items: flex-start;
     }
-
 }
