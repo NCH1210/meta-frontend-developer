@@ -1,2 +1,0 @@
-# meta-frontend-developer
- 
